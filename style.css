@@ -11,6 +11,9 @@ img {
     padding: var(--spacing);
     background: var(--base);
     filter: blur(Var(--blur));
+    width: 700px;
+    height: 500px;
+    border-radius: 5px;
 }
 
 .hl {
@@ -33,9 +36,4 @@ body {
 
 input {
     width: 100px;
-}
-
-img {
-    width: 700px;
-    height: 500px;
 }
