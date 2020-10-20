@@ -1,3 +1,23 @@
+/* CSS variables */
+/* this is how to declare CSS variables  */
+:root {
+    --base: #ffc600;
+    --spacing: 20px;
+    --blur: 10px;
+}
+
+/* This is how to use CSS variables */
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(Var(--blur));
+}
+
+.hl {
+    color: var(--base);
+}
+
+/* ------------------------------------------- */
 body {
     text-align: center;
     background: #221f1f;
